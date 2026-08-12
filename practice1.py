@@ -33,14 +33,28 @@
 #     i += 1
 
 # print(qoo)
+
 # COUNT THE VOWELS IN A STRING
-def count_vowels(text):
-    even = []
-    for num in text:
-        if num in "aeiou":
-            even.append(num)
+# def count_vowels(text):
+#     even = []
+#     for num in text:
+#         if num in "aeiou":
+#             even.append(num)
 
-    print(len(even))
+#     print(len(even))
 
 
-count_vowels("cybersecurity")
+# count_vowels("cybersecurity")
+
+# DICTIONARY
+student = {
+    "name": "Basera",
+    "age": 17,
+    "course": "Computer Science"
+}
+print(student.get("name"))
+student["age"] = 18
+# his or that
+# student.update({"age" : 18})
+student.update({"city": "Hyderabad"})
+print(student.items())
