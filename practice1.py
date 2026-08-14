@@ -75,6 +75,7 @@ def is_prime(n):
     return True
 
 
+# practice
 # Test the function
 print(is_prime(7))      # True
 print(is_prime(10))     # False
