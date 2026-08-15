@@ -81,5 +81,12 @@
 # print(is_prime(10))     # False
 # print(is_prime(2))      # True
 # print(is_prime(1))      # False
-# this is my practice test for git dsa
-# i think this test is taking much more time than needed.
+
+# REMOVE DUPLICATES WITHOUT USING SETS
+numbers = [1, 2, 2, 3, 4, 4, 5, 5, 5]
+unique = []
+for i in numbers:
+    if i not in unique:
+        unique.append(i)
+
+print(unique)
