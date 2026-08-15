@@ -81,3 +81,4 @@
 # print(is_prime(10))     # False
 # print(is_prime(2))      # True
 # print(is_prime(1))      # False
+# this is my practice test for git dsa
