@@ -82,3 +82,4 @@
 # print(is_prime(2))      # True
 # print(is_prime(1))      # False
 # this is my practice test for git dsa
+# i think this test is taking much more time than needed.
