@@ -83,10 +83,39 @@
 # print(is_prime(1))      # False
 
 # REMOVE DUPLICATES WITHOUT USING SETS
-numbers = [1, 2, 2, 3, 4, 4, 5, 5, 5]
-unique = []
-for i in numbers:
-    if i not in unique:
-        unique.append(i)
+# numbers = [1, 2, 2, 3, 4, 4, 5, 5, 5]
+# unique = []
+# for i in numbers:
+#     if i not in unique:
+#         unique.append(i)
 
-print(unique)
+# print(unique)
+
+# SECOND LARGEST DISTINCT NUMBER:
+numbers = [10, 25, 7, 40, 32, 40, 15]
+largest = None
+second_largest = None
+for num in numbers:
+    if num == largest:
+        continue
+
+    if largest is None or num > largest:
+        second_largest = largest
+        largest = num
+    elif second_largest is None or num > second_largest:
+        second_largest = num
+
+print(second_largest)
+# if len(numbers) < 2:
+#     print("Not enough elements")
+# else:
+#     largest = second = numbers[0]
+
+#     for num in numbers:
+#         if num > largest:
+#             second = largest
+#             largest = num
+#         elif num > second and num != largest:
+#             second = num
+
+#     print(second)
