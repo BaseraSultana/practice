@@ -92,20 +92,20 @@
 # print(unique)
 
 # SECOND LARGEST DISTINCT NUMBER:
-numbers = [10, 25, 7, 40, 32, 40, 15]
-largest = None
-second_largest = None
-for num in numbers:
-    if num == largest:
-        continue
+# numbers = [10, 25, 7, 40, 32, 40, 15]
+# largest = None
+# second_largest = None
+# for num in numbers:
+#     if num == largest:
+#         continue
 
-    if largest is None or num > largest:
-        second_largest = largest
-        largest = num
-    elif second_largest is None or num > second_largest:
-        second_largest = num
+#     if largest is None or num > largest:
+#         second_largest = largest
+#         largest = num
+#     elif second_largest is None or num > second_largest:
+#         second_largest = num
 
-print(second_largest)
+# print(second_largest)
 # if len(numbers) < 2:
 #     print("Not enough elements")
 # else:
