@@ -129,4 +129,13 @@
 
 # print(count)
 
-#
+# PALINDROME
+def is_palindrome(text):
+    if text[::-1] == text:
+        return True
+    else:
+        return False
+    return True
+
+
+print(is_palindrome("madam"))
