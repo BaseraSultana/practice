@@ -119,4 +119,14 @@
 #             second = num
 
 #     print(second)
-# problem 16
+
+# FREQUENCY COUNTER
+# text = "banana"
+# count = {}
+
+# for char in text:
+#     count[char] = count.get(char, 0) + 1
+
+# print(count)
+
+#
