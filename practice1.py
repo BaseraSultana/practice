@@ -130,12 +130,23 @@
 # print(count)
 
 # PALINDROME
-def is_palindrome(text):
-    if text[::-1] == text:
-        return True
+# def is_palindrome(text):
+#     if text[::-1] == text:
+#         return True
+#     else:
+#         return False
+#     return True
+
+
+# print(is_palindrome("madam"))
+
+# FIZZ BUZZ
+for i in range(1, 101):
+    if i % 3 and i % 5 == 0:
+        print("FIZZBUZZ")
+    elif i % 3 == 0:
+        print("FIZZ")
+    elif i % 5 == 0:
+        print("BUZZ")
     else:
-        return False
-    return True
-
-
-print(is_palindrome("madam"))
+        print(i)
