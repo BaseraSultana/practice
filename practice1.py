@@ -152,8 +152,6 @@
 #         print(i)
 
 # TWO SUM
-# write the indices of the numbers whose sum is equal to the target
-# try solving it without checking every possible pair if you know a better approach
 
 def two_sum(numbers, target):
     seen = {}
@@ -168,6 +166,7 @@ def two_sum(numbers, target):
 
 
 print(two_sum([2, 7, 11, 15], 9))
+
 # for index, number in numbers:
 #     complement = target - i
 #     if complement in numbers:
