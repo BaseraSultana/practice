@@ -141,12 +141,27 @@
 # print(is_palindrome("madam"))
 
 # FIZZ BUZZ
-for i in range(1, 101):
-    if i % 3 and i % 5 == 0:
-        print("FIZZBUZZ")
-    elif i % 3 == 0:
-        print("FIZZ")
-    elif i % 5 == 0:
-        print("BUZZ")
-    else:
-        print(i)
+# for i in range(1, 101):
+#     if i % 3 and i % 5 == 0:
+#         print("FIZZBUZZ")
+#     elif i % 3 == 0:
+#         print("FIZZ")
+#     elif i % 5 == 0:
+#         print("BUZZ")
+#     else:
+#         print(i)
+
+# TWO SUM
+# write the indices of the numbers whose sum is equal to the target
+# try solving it without checking every possible pair if you know a better approach
+numbers = [2, 7, 11, 15]
+target = 9
+
+
+def two_sum(numbers, target):
+    seen = {}
+    for index, number in numbers:
+        complement = target - i
+        if complement in numbers:
+            for index, number in enumerate(numbers):
+                print(index, number)
