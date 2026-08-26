@@ -153,16 +153,18 @@
 
 # TWO SUM
 
-def two_sum(numbers, target):
-    pairs = []
-    for first_index in range(len(numbers)):
-        for second_index in range(first_index + 1, len(numbers)):
-            if numbers[first_index] + numbers[second_index] == target:
-                pairs.append([first_index, second_index])
+# def two_sum(numbers, target):
+#     pairs = []
+#     for first_index in range(len(numbers)):
+#         for second_index in range(first_index + 1, len(numbers)):
+#             if numbers[first_index] + numbers[second_index] == target:
+#                 pairs.append([first_index, second_index])
 
-    return pairs
+#     return pairs
 
 
-print(two_sum([2, 7, 11, 6, 5, 4, 15, 3], 9))
+# print(two_sum([2, 7, 11, 6, 5, 4, 15, 3], 9))
 
-#
+# MOVE ZEROS TO THE END
+
+numbers = [0, 1, 0, 3, 12]
