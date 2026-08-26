@@ -154,18 +154,16 @@
 # TWO SUM
 
 def two_sum(numbers, target):
-    seen = {}
-    for index, number in enumerate(numbers):
-        complement = target - number
+    pairs = []
+    for first_index in range(len(numbers)):
+        for second_index in range(first_index + 1, len(numbers)):
+            if numbers[first_index] + numbers[second_index] == target:
+                pairs.append([first_index, second_index])
 
-        if complement in seen:
-            return [seen[complement], index]
-
-        seen[number] = index
-    return []
+    return pairs
 
 
-print(two_sum([2, 7, 11, 15], 9))
+print(two_sum([2, 7, 11, 6, 5, 4, 15, 3], 9))
 
 # for index, number in numbers:
 #     complement = target - i
