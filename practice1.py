@@ -168,6 +168,3 @@
 # MOVE ZEROS TO THE END
 
 numbers = [0, 1, 0, 3, 12]
-# text editing
-# summit
-# problem 22
