@@ -166,5 +166,17 @@
 # print(two_sum([2, 7, 11, 6, 5, 4, 15, 3], 9))
 
 # MOVE ZEROS TO THE END
+def move_zeroes(numbers):
+    # numbers = [0, 1, 0, 3, 12]
+    new = []
+    zeroes = []
+    for num in numbers:
+        if num != 0:
+            new.append(num)
+        if num == 0:
+            zeroes.append(num)
 
-numbers = [0, 1, 0, 3, 12]
+    print(new+zeroes)
+
+
+move_zeroes([0, 1, 0, 3, 12])
