@@ -186,15 +186,15 @@ def missing_num(numbers):
     diff1 = numbers[1]-numbers[0]
     diff2 = numbers[len(numbers)-1] - numbers[len(numbers)-2]
     diff3 = numbers[len(numbers)-3] - numbers[len(numbers)-4]
-    diff4 = numbers[len(numbers)-2] - numbers[len(numbers)-3]
+    # diff4 = numbers[len(numbers)-2] - numbers[len(numbers)-3]
     if diff1 == diff2:
         diff1 = diff2
     if diff2 == diff3:
         diff1 = diff2
     if diff3 == diff1:
         diff1 = diff3
-    elif diff2 == diff4:
-        diff1 = diff4
+    # elif diff2 == diff4:
+    #     diff1 = diff4
 
     for num in range(numbers[0], numbers[len(numbers)-1]+1, diff1):
         if num not in numbers:
