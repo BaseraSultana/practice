@@ -203,3 +203,28 @@ def missing_num(numbers):
 
 # missing_num([3, 5, 7, 9, 13])
 # missing_num([2, 4, 6, 8, 10, 14])
+
+# ANAGRAM CHECKER
+# def are_anagrams(str1, str2):
+#     s1 = []
+#     s2 = []
+#     for i in str1.lower():
+#         s1.append(i)
+
+#     for j in str2.lower():
+#         s2.append(j)
+
+#     if sorted(s1) == sorted(s2):
+#         print(True)
+#     else:
+#         print(False)
+
+  #  ANOTHER WAY TO CHECK ANAGRAMS
+#     if sorted(str1.lower()) == sorted(str2.lower()):
+#         print(True)
+#     else:
+#         print(False)
+
+# are_anagrams("listen", "silent")
+
+# MINI PROJECT
