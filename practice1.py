@@ -199,8 +199,7 @@ def missing_num(numbers):
     for num in range(numbers[0], numbers[len(numbers)-1]+1, diff1):
         if num not in numbers:
             print(num)
-            print(diff1)
 
 
 # missing_num([3, 5, 7, 9, 13])
-missing_num([5, 10, 20, 25, 35])
+# missing_num([2, 4, 6, 8, 10, 14])
