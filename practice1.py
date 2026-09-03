@@ -227,6 +227,4 @@ def missing_num(numbers):
 
 # are_anagrams("listen", "silent")
 
-# MINI PROJECT
-# st
-# last problem
+# MINI PROJECT IS SAVED IN THE GITDEMO FILE
