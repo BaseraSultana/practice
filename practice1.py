@@ -228,4 +228,4 @@ def missing_num(numbers):
 # are_anagrams("listen", "silent")
 
 # MINI PROJECT
-# practice1.py
+# practice1.py completed
