@@ -230,3 +230,4 @@ def missing_num(numbers):
 # MINI PROJECT
 # part1
 # part 2
+# part 3
