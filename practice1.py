@@ -228,17 +228,3 @@ def missing_num(numbers):
 # are_anagrams("listen", "silent")
 
 # MINI PROJECT
-# part1
-# part 2
-# part 3
-# part 4
-# part 5
-# part 6
-# part 7
-# part 8
-# part 9
-# part 10
-# part 11
-# part 12
-# part 13
-# part 14
