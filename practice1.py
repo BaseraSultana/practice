@@ -234,3 +234,4 @@ def missing_num(numbers):
 # part D
 # part E
 # part F
+# part G
