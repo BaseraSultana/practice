@@ -247,3 +247,4 @@ def missing_num(numbers):
 # part Q
 # part R
 # part S
+# part T
