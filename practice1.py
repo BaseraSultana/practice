@@ -260,3 +260,5 @@ def missing_num(numbers):
 # part AD
 # part AE
 # part AF
+# part AG
+# part AH
