@@ -245,3 +245,4 @@ def missing_num(numbers):
 # part AO
 # part AP
 # part AQ
+# part AR
