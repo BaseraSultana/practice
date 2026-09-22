@@ -228,7 +228,6 @@ def missing_num(numbers):
 # are_anagrams("listen", "silent")
 
 # MINI PROJECT
-# part AI
 # part AJ
 # part AK
 # part AL
