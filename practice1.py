@@ -227,7 +227,7 @@ def missing_num(numbers):
 
 # are_anagrams("listen", "silent")
 
-# MINI PROJECT
+# MINI PROJECT: TIC TAC TOE
 # part AK
 # part AL
 # part AM
