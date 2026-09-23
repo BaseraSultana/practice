@@ -228,7 +228,6 @@ def missing_num(numbers):
 # are_anagrams("listen", "silent")
 
 # MINI PROJECT: TIC TAC TOE
-# part AN
 # part AO
 # part AP
 # part AQ
