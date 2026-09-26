@@ -227,3 +227,4 @@ def missing_num(numbers):
 
 # are_anagrams("listen", "silent")
 # 1
+# 2
