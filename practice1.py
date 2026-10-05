@@ -252,3 +252,4 @@ def missing_num(numbers):
 # 24
 # 25
 # 26
+# 27
