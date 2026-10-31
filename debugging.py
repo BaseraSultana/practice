@@ -115,4 +115,28 @@
 # print(numbers)
 
 
-# problem 5:
+# problem 5: Mutable Default Argument. Actual behavior is different.Figure out why.
+# Expected:
+# ["apple"]
+# ["banana"]
+# ["orange"]
+# def add_item(item, items=[]):
+#     items.append(item)
+#     return items
+
+
+# print(add_item("apple"))
+# print(add_item("banana"))
+# print(add_item("orange"))
+
+#                              solutionnnnnnnnn
+def add_item(item, items=None):
+    if items is None:
+        items = []
+    items.append(item)
+    return items
+
+
+print(add_item("apple"))
+print(add_item("banana"))
+print(add_item("orange"))
