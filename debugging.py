@@ -83,12 +83,33 @@
 #     print("Password is invalid")
 
 #                                      solutionnnnnn:
-password = input("Enter password: ")
+# password = input("Enter password: ")
 
-if len(password) < 8:
-    print("Password is too short")
-elif not any(character.isalpha() for character in password) or not any(character.isdigit() for character in password):
-    print("Password must contain a letter and a number")
+# if len(password) < 8:
+#     print("Password is too short")
+# elif not any(character.isalpha() for character in password) or not any(character.isdigit() for character in password):
+#     print("Password must contain a letter and a number")
 
-else:
-    print("Password is valid")
+# else:
+#     print("Password is valid")
+
+
+# problem 4: The programmer wants to remove all even numbers.
+# Fix it without simply writing a completely different program.
+# This is a particularly useful debugging exercise because it teaches you to recognize problems caused by modifying a collection while iterating over it.
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+# for number in numbers:
+#     if number % 2 == 0:
+#         numbers.remove(number)
+
+# print(numbers)
+
+#                            solutionnnnnnnnnnn
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+for number in numbers[:]:
+    if number % 2 == 0:
+        numbers.remove(number)
+
+print(numbers)
