@@ -130,13 +130,13 @@
 # print(add_item("orange"))
 
 #                              solutionnnnnnnnn
-def add_item(item, items=None):
-    if items is None:
-        items = []
-    items.append(item)
-    return items
+# def add_item(item, items=None):
+#     if items is None:
+#         items = []
+#     items.append(item)
+#     return items
 
 
-print(add_item("apple"))
-print(add_item("banana"))
-print(add_item("orange"))
+# print(add_item("apple"))
+# print(add_item("banana"))
+# print(add_item("orange"))
