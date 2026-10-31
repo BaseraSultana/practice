@@ -26,6 +26,24 @@
 # print("Average:", average([]))
 
 # problem 2: The programmer intended to apply a 10% discount.Find the bug.
+# cart = {
+#     "apple": 50,
+#     "banana": 30,
+#     "milk": 60
+# }
+
+# total = 0
+
+# for item in cart:
+#     total += cart[item]
+
+# print("Total:", total)
+
+# discount = 10
+# total = total - discount / 100
+
+# print("Final:", total)
+#                        solutionnnnnn
 cart = {
     "apple": 50,
     "banana": 30,
@@ -34,12 +52,12 @@ cart = {
 
 total = 0
 
-for item in cart:
-    total += cart[item]
+for item, price in cart.items():
+    total += price
 
 print("Total:", total)
 
 discount = 10
-total = total - total * discount / 100
+total = total * (1 - discount / 100)
 
 print("Final:", total)
