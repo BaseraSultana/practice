@@ -40,6 +40,6 @@ for item in cart:
 print("Total:", total)
 
 discount = 10
-total = total - discount / 100
+total = total - total * discount / 100
 
 print("Final:", total)
