@@ -106,10 +106,10 @@
 # print(numbers)
 
 #                            solutionnnnnnnnnnn
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
-for number in numbers[:]:
-    if number % 2 == 0:
-        numbers.remove(number)
+# for number in numbers[:]:
+#     if number % 2 == 0:
+#         numbers.remove(number)
 
-print(numbers)
+# print(numbers)
