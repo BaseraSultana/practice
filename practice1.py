@@ -230,3 +230,4 @@ def missing_num(numbers):
 # pointer
 # function
 # string
+# prototype
