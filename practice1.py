@@ -232,3 +232,4 @@ def missing_num(numbers):
 # string
 # prototype
 # array
+# palindrome
