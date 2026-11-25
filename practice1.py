@@ -229,3 +229,4 @@ def missing_num(numbers):
 # class
 # pointer
 # function
+# string
