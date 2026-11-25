@@ -226,4 +226,5 @@ def missing_num(numbers):
 #         print(False)
 
 # are_anagrams("listen", "silent")
-#class
+# class
+# pointer
