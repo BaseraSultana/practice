@@ -240,3 +240,4 @@ def missing_num(numbers):
 # bubble sort
 # structure
 # union
+# area
