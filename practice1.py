@@ -236,3 +236,4 @@ def missing_num(numbers):
 # binary search
 # linear search
 # armstrong number
+# fibonacci series
