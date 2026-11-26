@@ -233,4 +233,5 @@ def missing_num(numbers):
 # prototype
 # array
 # palindrome
-#binary search
+# binary search
+# linear search
