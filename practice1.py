@@ -235,3 +235,4 @@ def missing_num(numbers):
 # palindrome
 # binary search
 # linear search
+# armstrong number
