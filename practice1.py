@@ -238,3 +238,4 @@ def missing_num(numbers):
 # armstrong number
 # fibonacci series
 # bubble sort
+# structure
