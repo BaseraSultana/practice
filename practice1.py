@@ -245,3 +245,4 @@ def missing_num(numbers):
 # recursion
 # addition
 # subtraction
+# multiplication
