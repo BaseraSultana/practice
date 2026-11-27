@@ -247,3 +247,4 @@ def missing_num(numbers):
 # subtraction
 # multiplication
 # division
+# modulus
