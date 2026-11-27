@@ -248,3 +248,4 @@ def missing_num(numbers):
 # multiplication
 # division
 # modulus
+# exponential
