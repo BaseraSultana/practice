@@ -252,3 +252,4 @@ def missing_num(numbers):
 # floor division
 # factorial
 # student
+# patient
