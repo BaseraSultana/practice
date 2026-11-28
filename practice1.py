@@ -251,3 +251,4 @@ def missing_num(numbers):
 # exponential
 # floor division
 # factorial
+# student
