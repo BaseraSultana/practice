@@ -249,3 +249,4 @@ def missing_num(numbers):
 # division
 # modulus
 # exponential
+# floor division
