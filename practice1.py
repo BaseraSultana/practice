@@ -250,3 +250,4 @@ def missing_num(numbers):
 # modulus
 # exponential
 # floor division
+# factorial
